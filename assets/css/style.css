@@ -60,6 +60,38 @@ hr{
 	clear: both;
 }
 
+#portfolio{
+	background-color: #ccc;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#portrow{
+margin-right: -10px;
+margin-left: -5px;
+margin-bottom: 20px;
+}
+
+
+.image {
+    position:relative;
+    float:left; /* optional */
+    margin: 10px;
+}
+.image .text {
+    position:absolute;
+    top:120px; /* in conjunction with left property, decides the text position */
+    left:0px;
+    right: 0px;
+    background-color: #64A8A4;
+    color:white;
+    text-align: center;
+    line-height: 10%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
 .wraptext {
 	float: left;
 	margin: 10px;
@@ -72,6 +104,11 @@ article{
 	padding-top: 22px;
 	background-color: #fff;
 	width:650px;
+	margin-bottom:  28px;
+}
+
+.artport {
+		width:430px;
 }
 
 
