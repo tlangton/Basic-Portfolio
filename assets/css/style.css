@@ -61,8 +61,8 @@ hr{
 }
 
 .wraptext {
-float: left;
-margin: 10px;
+	float: left;
+	margin: 10px;
 }
 
 article{
@@ -71,7 +71,7 @@ article{
 	padding:30px;
 	padding-top: 22px;
 	background-color: #fff;
-	width:550px;
+	width:650px;
 }
 
 
@@ -81,18 +81,18 @@ article{
 	padding:30px;
 	padding-top: 22px;
 	background-color: #fff;
-	width:250px;
+	width:270px;
 }
 
 
 #logos{
 	padding:20px;
-  text-align: center;
+	text-align: center;
 }
 
 footer{
 	clear: both;
-width: 100%;
+	width: 100%;
 	background: #666;
 	border-top: thick solid #64A8A4;
 	
@@ -100,29 +100,29 @@ width: 100%;
 	text-align: center;
 	padding: 36px;
 	font-size: 12px;
-	}
+}
 
 
-	/* unvisited link */
+/* unvisited link */
 a:link {
-    color: #ccc;
-    text-decoration: none;
+	color: #ccc;
+	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #888;
-    text-decoration: none;
+	color: #888;
+	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #ccc;
-    text-decoration: none;
+	color: #ccc;
+	text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: blue;
-    text-decoration: none;
+	color: blue;
+	text-decoration: none;
 }
