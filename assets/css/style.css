@@ -118,7 +118,7 @@ article{
 }
 
 
-#connect{
+.connect{
 	float:left;
 	margin-left: 83px;
 	margin-top: 30px;
@@ -129,7 +129,7 @@ article{
 }
 
 
-#logos{
+.logos{
 	padding:20px;
 	text-align: center;
 }
