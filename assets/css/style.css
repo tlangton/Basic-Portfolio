@@ -67,28 +67,30 @@ hr{
 	padding: 10px;
 }
 
-#portrow{
-margin-right: -10px;
+.portrow{
+/*margin-right: -10px;
 margin-left: -5px;
-margin-bottom: 20px;
+margin-bottom: 20px;*/
+margin: 0 auto ;
 }
 
 
 .image {
-    position:relative;
-    float:left; /* optional */
-    margin: 10px;
+	position:relative;
+	float:left; /* optional */
+	margin: 20px;
+
 }
 .image .text {
-    position:absolute;
-    top:120px; /* in conjunction with left property, decides the text position */
-    left:0px;
-    right: 0px;
-    background-color: #64A8A4;
-    color:white;
-    text-align: center;
-    line-height: 10%;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+	position:absolute;
+	top:150px; /* in conjunction with left property, decides the text position */
+	left:0px;
+	right: 0px;
+	background-color: #64A8A4;
+	color:white;
+	text-align: center;
+	line-height: 10%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
@@ -104,22 +106,26 @@ article{
 	padding:30px;
 	padding-top: 22px;
 	background-color: #fff;
-	width:650px;
+	width:578px;
 	margin-bottom:  28px;
+	margin-top:  30px;
+	height: 824px;
 }
 
 .artport {
-		width:430px;
+	width:578px;
+	height: 824px;
 }
 
 
 #connect{
 	float:left;
-	margin-left: 26px;
+	margin-left: 83px;
+	margin-top: 30px;
 	padding:30px;
 	padding-top: 22px;
 	background-color: #fff;
-	width:270px;
+	width:257px;
 }
 
 
@@ -136,24 +142,24 @@ input{
 
 
 input[type=submit] {
-    width: 140px;
-    background-color: #64A8A4;
-    color: white;
-    padding: 14px 20px;
-    margin: 20px 0;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 100%;
-    vertical-align: top;
-    line-height: 0px;
+	width: 140px;
+	background-color: #64A8A4;
+	color: white;
+	padding: 14px 20px;
+	margin: 20px 0;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 100%;
+	vertical-align: top;
+	line-height: 0px;
 }
 
 input[type=textarea] {
-    width: 100%;
-    height: 150px;
-    resize: none;
+	width: 100%;
+	height: 132px;
+	resize: none;
 
 }
 
